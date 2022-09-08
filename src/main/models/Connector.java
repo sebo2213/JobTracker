@@ -25,4 +25,3 @@ public class Connector {
     }
 
 }
-//jdbc:mysql://127.0.0.1:3306/?user=root
