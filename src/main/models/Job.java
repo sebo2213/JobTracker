@@ -23,6 +23,7 @@ public class Job {
         this.jobID = jobID;
     }
 
+    //------------------------------------------------ Getters -------------------------------------------------------//
     public int getSalary(){
         return salary;
     }
@@ -39,9 +40,7 @@ public class Job {
         return remoteStatus;
     }
 
-    public String getCompanyName(){
-        return companyName;
-    }
+    public String getCompanyName(){ return companyName; }
 
     public String getSiteApplied(){
         return siteApplied;
@@ -54,6 +53,8 @@ public class Job {
     public String getNextAction(){
         return nextAction;
     }
+
+    //---------------------------------------------- Setters ---------------------------------------------------------//
 
     public void setCompanyName(String companyName) {
         this.companyName = companyName;

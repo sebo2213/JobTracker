@@ -13,6 +13,8 @@ public class JobList {
         this.applicationStatus = applicationStatus;
     }
 
+    //----------------------------------------------- Getters --------------------------------------------------------//
+
     public int getJobID() {
         return jobID;
     }
@@ -24,6 +26,8 @@ public class JobList {
     public String getApplicationStatus() {
         return applicationStatus;
     }
+
+    //---------------------------------------------- Setters ---------------------------------------------------------//
 
     public void setJobID(int jobID) {
         this.jobID = jobID;

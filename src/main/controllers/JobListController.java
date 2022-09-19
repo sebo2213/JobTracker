@@ -19,6 +19,6 @@ public class JobListController {
     }
     //delete
     public void deleteEntry(){
-        
+
     }
 }

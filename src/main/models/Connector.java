@@ -17,7 +17,8 @@ public class Connector {
         try {
             connection = DriverManager
                     .getConnection("jdbc:mysql://127.0.0.1:3306/job", "root", "Firewarrior.2213");
-            System.out.println("SQL Connection to database established!");
+            if(connection != null)
+                System.out.println("SQL Connection to database established!");
 
         } catch (SQLException e) {
             System.out.println("Connection Failed! Check output console");
